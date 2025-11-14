@@ -15,14 +15,21 @@ session_start();
 <html>
 
 <body>
-<header>
-    <a>Connection</a>
-    <img src="public/asset/images/1logos.png" alt="logos clée">
-    <a>Panier</a>
+<header class="header" >
+
+    <div class="d-flex align-items-center">
+        <a class="header-brand" href="#">connection</a>
+        <img src="public/asset/images/1logos.png" class="rounded mx-auto d-block" alt="logo key" height="150px" width="150px">
+        <a class="header-brand" href="#">panier</a>
+    </div>
+
+
+
+
 </header>
 
 <style>
     header {
-
+        background-color: #F9DC5C;
     }
 </style>

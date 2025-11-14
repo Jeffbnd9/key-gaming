@@ -1,25 +1,12 @@
-﻿<?php ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="public/styles/styles.css">
-</head>
+﻿
 
-<html>
-
-<body>
-
-<aside class="sidebar">
+<aside class="sidebar text-light bg-dark">
     <h2>Navigation</h2>
     <nav>
     <div class="category">
-        <h3>Les CPU</h3>
+        <h3>Game</h3>
         <ul>
-            <li><a href="cpuaccueil.html">C'est quoi un CPU ?</a></li>
-            <li><a href="cpudatabase.html"><button>La base de donnée</button></a></li>
+            <li><a href="cpuaccueil.html">Tous les jeux</a></li>
         </ul>
     </div>
 
@@ -40,6 +27,3 @@
     </div>
     </nav>
 </aside>
-</body>
-
-</html>
