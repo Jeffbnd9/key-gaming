@@ -7,9 +7,6 @@
     <list default="true" id="eb2b2105-5981-4a7d-96e0-ce4202899d9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763117692072</updated>
       <workItem from="1763117693181" duration="2550000" />
-      <workItem from="1763123323326" duration="7314000" />
+      <workItem from="1763123323326" duration="7684000" />
     </task>
     <servers />
   </component>
