@@ -1,0 +1,12 @@
+#formConnexion {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 28px;
+    background:blue;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(15,23,42,08);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
