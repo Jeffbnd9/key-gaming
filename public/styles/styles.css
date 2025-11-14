@@ -4,5 +4,6 @@ root {
     --write: #F4FFFD;
 }
 
-
-
+body {
+    background-color: var(--black);
+}
