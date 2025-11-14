@@ -1,8 +1,15 @@
 <?php
-include 'include/header.php';
+include 'header.php';
 ?>
 
 <h2>Page de connexion</h2>
+
+    <nav id="Inscription Button="d-grid gap-2 col-6 mx-auto">
+        <a href="inscription.php">Inscription</a>
+            <button class="btn btn-primary" type="button">Button</button>
+    </nav>
+
+
 <section id="formConnexion">
 
     <form action="#" method="POST">
@@ -16,5 +23,5 @@ include 'include/header.php';
 
 <?php
 
-include 'include/footer.php';
+include 'footer.php';
 ?>
