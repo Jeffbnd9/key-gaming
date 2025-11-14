@@ -1,12 +1,12 @@
 ﻿
 
-<aside class="sidebar text-light bg-dark">
+<aside class="sidebar text-light bg-dark rounded border-left-0">
     <h2>Navigation</h2>
     <nav>
     <div class="category">
         <h3>Game</h3>
         <ul>
-            <li><a href="cpuaccueil.html">Tous les jeux</a></li>
+            <li><a href="game.php">Tous les jeux</a></li>
         </ul>
     </div>
 

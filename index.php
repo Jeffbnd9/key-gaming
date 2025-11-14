@@ -26,7 +26,7 @@ include 'include/header.php';
     <div class="row cardColor ">
         <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
-                <div class="card-body text-light bg-dark" id="lastRelease">
+                <div class="card-body text-light bg-dark rounded" id="lastRelease">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -35,7 +35,7 @@ include 'include/header.php';
         </div>
         <div class="col-sm-6">
             <div class="card">
-                <div class="card-body text-light bg-dark">
+                <div class="card-body text-light bg-dark rounded">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
