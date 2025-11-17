@@ -15,29 +15,29 @@ session_start();
 <html>
 
 <body>
-<header class="header" >
+<header class="header p-3" >
 
     <div class="d-flex align-items-center">
         <?php
 if (!empty($_SESSION['id'])) {
     ?>
     <a href="http://localhost:8000/include/login_logout/logout.php">Se déconnecter
-        
+
     </a>
 <?php
 } else {
 ?>
-    <a href="/include/login_logout/login.php">connexion
+    <a class="btn btn-outline-primary" href="/include/login_logout/login.php">connexion
 </a>
 <?php
 }
 
 ?>
-        ?>
+
 
 
         <img src="public/asset/images/1logos.png" class="rounded mx-auto d-block" alt="logo key" height="150px" width="150px">
-        <button type="button" class="btn btn-outline-primary">panier</button>
+        <button type="button" class="btn btn-outline-primary">paniers</button>
     </div>
 
 
