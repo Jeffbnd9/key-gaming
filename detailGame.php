@@ -4,7 +4,7 @@ include 'include/header.php';
 $id = $_GET['id'];
 $game = $pdo->query("SELECT * FROM `game` WHERE id = $id")->fetchAll();
 $game = $game[0];
-
+include 'include/header.php';
 
 ?>
 
@@ -17,5 +17,6 @@ $game = $game[0];
     <div class="row"><span class="label">Prix : 60€ </span></div>
 </div>
 <div class="row"><a href="http://localhost/key-gaming/achatJeu.php?id=<?= $game['id'] ?>">Acheter le jeu</a></div>
-</body>
-</html>
+
+<?php
+include 'include/footer.php';

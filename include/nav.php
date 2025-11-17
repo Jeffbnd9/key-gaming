@@ -6,7 +6,7 @@
     <div class="category">
         <h3>Game</h3>
         <ul>
-            <li><a href="game.php">Tous les jeux</a></li>
+            <button type="button" class="btn btn-primary btn-sm" href="game.php">Tous les jeux</button>
         </ul>
     </div>
 
