@@ -17,6 +17,7 @@ if(count($_POST) > 0) {
     if($row) {
         $_SESSION["id"] = $row['id'];
         $_SESSION["name"] = $row['name'];
+        $_SESSION["email"] = $_POST["userEmail"];
         header("Location: /index.php");
         exit();
     } else {
