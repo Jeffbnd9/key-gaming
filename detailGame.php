@@ -57,11 +57,8 @@ $game = $game[0];
     <div class="row"><span class="label"></span> <img src="<?= $game['image']?>" height="250" > </div>
     <div class="row"><span class="label">Plateforme :</span> <?= $game['Platform_id'] ?></div>
     <div class="row"><span class="label">Description :</span> <?= $game['description'] ?></div>
+    <div class="row"><span class="label">Prix : 60€ </span></div>
 </div>
-<?php
-foreach($game as $g){
-    ?>
-    <div class="row"><a href="http://localhost/key-gaming/achatJeu.php?id=<?= $g['id'] ?>">Acheter le jeu</a></div>
-<?php
-}
-?>
+<div class="row"><a href="http://localhost/key-gaming/achatJeu.php?id=<?= $game['id'] ?>">Acheter le jeu</a></div>
+</body>
+</html>
