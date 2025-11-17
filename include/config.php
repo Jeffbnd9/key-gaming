@@ -2,7 +2,7 @@
 
 $DB_DSN = 'mysql:host=127.0.0.1;dbname=keygaming;charset=utf8mb4';
 $DB_USER = 'root';
-$DB_PASS = 'root';
+$DB_PASS = '';
 try {
     $pdo = new PDO($DB_DSN,$DB_USER,$DB_PASS,[
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
