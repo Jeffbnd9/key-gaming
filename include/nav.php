@@ -1,6 +1,6 @@
 ﻿
 
-<aside class="sidebar text-light bg-dark rounded border-left-0">
+<aside class="sidebar bg-light rounded border-left-0">
     <h2>Navigation</h2>
     <nav>
     <div class="category">
