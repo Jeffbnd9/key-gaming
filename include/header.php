@@ -18,7 +18,24 @@ session_start();
 <header class="header" >
 
     <div class="d-flex align-items-center">
-        <a class="header-brand" href="#">connection</a>
+        <?php
+if (!empty($_SESSION['id'])) {
+    ?>
+    <a href="http://localhost:8000/include/login_logout/logout.php">Se déconnecter
+        
+    </a>
+<?php
+} else {
+?>
+    <a href="/include/login_logout/login.php">connexion
+</a>
+<?php
+}
+
+?>
+        ?>
+
+
         <img src="public/asset/images/1logos.png" class="rounded mx-auto d-block" alt="logo key" height="150px" width="150px">
         <a class="header-brand" href="#">panier</a>
     </div>
